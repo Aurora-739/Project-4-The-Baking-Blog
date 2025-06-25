@@ -10,8 +10,9 @@ class Post(models.Model):
     author = models.ForeignKey(
     User, on_delete=models.CASCADE, related_name="blog_posts"
 )
-    ingredients = models.TextField()
-    content = models.TextField()
+    ingredients = models.TextField(blank=True, help_text="E.g. 100g - flour")
+    cooking_utensils = models.TextField(blank=True, help_text="E.g. A stand mixer, A large mixing bowl")
+    steps = models.TextField(blank=True, help_text="E.g. Step 1. Add 100g of flour to a large mixing bowl")
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
 
