@@ -14,11 +14,29 @@ body {
     font-family: "Merriweather";
 }
 
-h2 {
+h1, h2 {
     color: #D9534F;
     font-family: 'Coiny', script;
 }
-
 a {
     text-decoration: none;
+}
+
+.page-link {
+    border-radius: 25px;
+    background-color: #D9534F;
+    color: #FFEEAD;
+    border: #FFAD60;
+}
+
+/*NAV BAR*/
+.navbar {
+    padding-top: 25px;
+}
+
+
+/* CARDS */
+.custom-cards {
+    border-radius: 25px;
+    border: 3px solid #FFAD60;
 }
