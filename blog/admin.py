@@ -8,8 +8,8 @@ from django_summernote.admin import SummernoteModelAdmin
 class PostAdmin(SummernoteModelAdmin):
 
     list_display = ('title', 'status')
-    search_fields = ['title']
-    list_filter = ('status',)
-    summernote_fields = ('content',)
+    search_fields = ['title', 'ingredients']
+    list_filter = ('status', 'created_on')
+    summernote_fields = ('steps', 'ingredients', 'cooking_utensils')
 
 admin.site.register(Comment)
