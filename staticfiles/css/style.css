@@ -1,0 +1,42 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');  Heading font*/
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap'); /*all fonts*/
+
+/*colour pallete
+cream: #FFEEAD
+turquoise: #96CEB4
+red: #D9534F
+orange: #FFAD60
+*/
+
+body {
+    background-color: #FFEEAD;
+    color: #96CEB4;
+    font-family: "Merriweather";
+}
+
+h1, h2 {
+    color: #D9534F;
+    font-family: 'Coiny', script;
+}
+a {
+    text-decoration: none;
+}
+
+.page-link {
+    border-radius: 25px;
+    background-color: #D9534F;
+    color: #FFEEAD;
+    border: #FFAD60;
+}
+
+/*NAV BAR*/
+.navbar {
+    padding-top: 25px;
+}
+
+
+/* CARDS */
+.custom-cards {
+    border-radius: 25px;
+    border: 3px solid #FFAD60;
+}
