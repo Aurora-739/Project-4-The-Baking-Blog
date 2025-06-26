@@ -13,6 +13,7 @@ class Post(models.Model):
     ingredients = models.TextField(blank=True, help_text="E.g. 100g - flour")
     steps = models.TextField(blank=True, help_text="E.g. Step 1. Add 100g of flour to a large mixing bowl")
     created_on = models.DateTimeField(auto_now_add=True)
+    updated_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     class Meta:
         ordering = ["created_on"]
