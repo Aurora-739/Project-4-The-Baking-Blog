@@ -9,6 +9,7 @@ class Post(models.Model):
     author = models.ForeignKey(
     User, on_delete=models.CASCADE, related_name="blog_posts"
 )
+    slug = models.SlugField(max_length=200, unique=True, null=True)
     cooking_utensils = models.TextField(blank=True, help_text="E.g. A stand mixer, A large mixing bowl")
     ingredients = models.TextField(blank=True, help_text="E.g. 100g - flour")
     steps = models.TextField(blank=True, help_text="E.g. Step 1. Add 100g of flour to a large mixing bowl")
