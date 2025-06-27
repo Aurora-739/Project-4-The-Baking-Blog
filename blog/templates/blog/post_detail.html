@@ -1,7 +1,8 @@
 {% extends 'base.html' %}
-{% block content %}
 {% load static %}
+{% block content %}
 {% load crispy_forms_tags %}
+
 
 <div class="masthead">
   <div class="container">
@@ -49,13 +50,11 @@
       <hr>
     </div>
   </div>
-  <!-- Displaying Comments -->
+  <!-- SHOWS COMMENTS (underneath the how to make it box) -->
   <div class="row">
-    <div class="col-md-8 card mb-4  mt-3 ">
+    <div class="col-md-8 card mb-4  mt-3 comments-box">
       <h3>Comments:</h3>
       <div class="card-body">
-        <!-- We want a for loop inside the empty control tags
-          to iterate through each comment in comments -->
         {% for comment in comments %}
         <div class="p-2 comments
           {% if not comment.approved and comment.author == user %}
@@ -79,12 +78,12 @@
           <button class="btn btn-edit" comment_id="{{ comment.id }}">Edit</button>
           {% endif %}
         </div>
-        <!-- Our for loop ends here -->
+        <!-- FOR LOOP END -->
         {% endfor %}
       </div>
     </div>
-    <!-- Creating New Comments -->
-    <div class="col-md-4 card mb-4 mt-3">
+    <!-- USER CREATES COMMENTS-->
+    <div class="col-md-4 card mb-4 mt-3 comments-box">
       <div class="card-body">
         {% if user.is_authenticated %}
         <h3>Leave a comment:</h3>

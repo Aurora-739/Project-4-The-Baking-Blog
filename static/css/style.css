@@ -117,3 +117,11 @@ a {
     border-radius: 25px;
     color: #FFEEAD;
 }
+
+/*Comment box*/
+.comments-box {
+    background-color: #FFAD60 !important;
+    color: #FFEEAD !important;
+    border: 3px solid #96CEB4 !important;
+    border-radius: 25px !important;
+}
