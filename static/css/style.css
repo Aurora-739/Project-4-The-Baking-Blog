@@ -76,6 +76,9 @@ a {
     transition: 0.5s;
 }
 
+.next-prev {
+    background-color: #FFEEAD !important;
+}
 
 .footer {
     background-color: #FFAD60;
