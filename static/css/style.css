@@ -85,6 +85,10 @@ a {
     color: #FFEEAD;
 }
 
+.footer > i {
+    color: #FFEEAD;
+}
+
 /*IN THE BLOG POSTS*/
 
 .scale {
@@ -120,8 +124,13 @@ a {
 
 /*Comment box*/
 .comments-box {
-    background-color: #FFAD60 !important;
-    color: #FFEEAD !important;
+    background-color: #FFAD60;
+    color: #FFEEAD;
     border: 3px solid #96CEB4 !important;
     border-radius: 25px !important;
+    padding: 10px;
+}
+
+.comment-btn{
+    color: #FFEEAD !important;
 }
