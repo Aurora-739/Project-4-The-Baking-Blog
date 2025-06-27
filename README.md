@@ -131,13 +131,20 @@ After updating the link to the correct Bootstrap 5 CDN and making sure both CSS 
 Currently, I don’t have any known unresolved bugs.
 Everything works as expected across the features and devices I tested.
 
-Some code from some of the sections of The code institute's: I think therefore I blog:
-- comment.js
-- base.css
-- responsive.css
-- views.py
-- base.html
-- index.html
-- post_detail
-- autocomplete.js
-(& potenitally more, so I just would like to credit that here.)
+## Credits
+### Content
+* The comment functionality (add, edit, delete, and approve) was guided by the Django tutorials and documentation from the official Django project site.
+* I used the Code Institute Django Blog Walkthrough as a main reference for structuring my Django views and templates.(changes were made)
+* The icons for the navigation and social media links came from Font Awesome.
+* I followed tutorials from YouTube and Stack Overflow when I needed help with Bootstrap modals and Django form handling.
+
+###  Media
+* The placeholder images for blog posts came from Pexels, which offers free stock images.
+* The default image shown when no featured image is uploaded is stored locally in my static files folder (static/images/default.jpg). I got this from free Image
+* Any food-themed photos used in posts were from free-to-use, open-source image sites like free Image and Pexels.
+
+### Extra Help
+* I used Bootstrap 5 documentation for layout and responsiveness guidance.
+* For form styling and formatting, I used django and css from the Code Institute's Blog Walkthrough as my base code (changes were made).
+* Bug troubleshooting help came from questions and answers found on Stack Overflow.
+* I used the W3C Validator and Jigsaw CSS Validator to check and fix my code.
