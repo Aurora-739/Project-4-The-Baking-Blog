@@ -82,12 +82,13 @@ a {
 
 .footer {
     background-color: #FFAD60;
-    color: #FFEEAD;
+    color: #FFEEAD !important;
 }
 
 .footer > i {
     color: #FFEEAD;
 }
+
 
 /*IN THE BLOG POSTS*/
 

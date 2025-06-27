@@ -128,6 +128,7 @@ a {
     color: #FFEEAD;
     border: 3px solid #96CEB4 !important;
     border-radius: 25px !important;
+    padding: 10px;
 }
 
 .comment-btn{
