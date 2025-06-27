@@ -9,8 +9,9 @@
 <html class="h-100" lang="en">
 
 <head>
-    <title>Baking Blog</title>
+    <title>The Baking Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}">
 
 
     <!-- Font Awesome CSS -->
@@ -32,7 +33,7 @@
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid d-flex flex-column">
             <a class="navbar-brand" href="{% url 'home' %}">
-                <h1><i class="fa-solid fa-cookie-bite"></i>   Baking Blog</h1>
+                <h1><i class="fa-solid fa-cookie-bite"></i>   The Baking Blog</h1>
             </a>
             <div class="d-flex flex-row">
                 <a class="nav-link" href="{% url 'home' %}">Home Page</a>
@@ -55,7 +56,12 @@
     </nav>
 
     <main class="flex-shrink-0 main-bg">
-
+        {% if user.is_authenticated %}
+        <p class="text-end m-3">You are logged in as <b>{{ user }}</b></p>
+        {% else %}
+        <p class="text-end m-3">You are not logged in as a user, to log in or register click login / register at the top of the screen.</p>
+        {% endif %}
+        <br>
 
         {% block content %}
         <!-- Content Goes here -->
