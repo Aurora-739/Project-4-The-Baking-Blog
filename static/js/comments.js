@@ -1,3 +1,6 @@
+
+document.addEventListener('DOMContentLoaded', () => {
+
 /**FOR EDITING COMMENTS*/
 const editButtons = document.getElementsByClassName("btn-edit");
 const commentText = document.getElementById("id_body");
@@ -31,3 +34,4 @@ for (let button of deleteButtons) {
       deleteModal.show();
     });
   }
+});
