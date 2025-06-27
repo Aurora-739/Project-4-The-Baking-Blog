@@ -10,11 +10,17 @@ orange: #FFAD60
 
 body {
     background-color: #FFEEAD;
-    color: #FFEEAD;
+    color: #D9534F;
     font-family: "Merriweather";
+    list-style-type: none;
 }
 
-h1, h2 {
+h1 {
+    color: #FFEEAD;
+    font-family: 'Coiny', script;
+}
+
+h2, h3 {
     color: #D9534F;
     font-family: 'Coiny', script;
 }
@@ -23,21 +29,41 @@ a {
     text-decoration: none;
 }
 
-.page-link {
+.page-link, .btn-signup {
     border-radius: 25px;
-    background-color: #D9534F;
+    background-color: #96CEB4;
     color: #FFEEAD;
     border: #FFAD60;
     text-decoration: none;
 }
 
-.page-link:hover{
-    background-color: #96CEB4;
+.page-link:hover, .btn-signup:hover{
+    background-color: #D9534F;
+    transition: 0.5s;
 }
 
 /*NAV BAR*/
+nav {
+    background-color: #FFAD60;
+}
+
 .navbar {
-    padding-top: 25px;
+    padding: 25px;
+    background-color: #FFAD60 !important;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: #FFEEAD;
+    text-decoration: underline;
+    font-family: 'Coiny', script;
+}
+
+.nav-link:hover, h1:hover{
+    color: #D9534F;
+    transition: 0.5s;
 }
 
 /* CARDS */
@@ -50,9 +76,36 @@ a {
 .custom-cards:hover {
     border: 3px solid #FFAD60;
     background-color: #96CEB4;
+    transition: 0.5s;
 }
 
 
-footer {
-    color: #96CEB4;
+.footer {
+    background-color: #FFAD60;
+    color: #FFEEAD;
+}
+
+/*IN THE BLOG POSTS*/
+
+.scale {
+    width: 50%;
+    padding-left: 50px;
+}
+
+
+.post-subtitle {
+    color: #D9534F;
+}
+
+.post-info {
+    border-radius: 25px;
+    background-color: #FFAD60;
+    color: #FFEEAD;
+    border: 3px solid #96CEB4;
+}
+
+/* SIGNING IN AND OUT*/
+.sign-in-out{
+    border-radius: 25px;
+    color: #D9534F;
 }
