@@ -12,6 +12,7 @@ body {
     background-color: #FFEEAD;
     color: #D9534F;
     font-family: "Merriweather";
+    list-style-type: none;
 }
 
 h1 {
@@ -42,12 +43,16 @@ a {
 }
 
 /*NAV BAR*/
+nav {
+    background-color: #FFAD60;
+}
+
 .navbar {
     padding: 25px;
-    background-color: #FFAD60;
+    background-color: #FFAD60 !important;
     margin-bottom: 25px;
     justify-content: center;
-    list-style: none;
+    align-items: center;
 }
 
 .nav-link{
