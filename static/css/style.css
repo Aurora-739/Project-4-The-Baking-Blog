@@ -10,7 +10,7 @@ orange: #FFAD60
 
 body {
     background-color: #FFEEAD;
-    color: #FFEEAD;
+    color: #D9534F;
     font-family: "Merriweather";
 }
 
@@ -19,7 +19,7 @@ h1 {
     font-family: 'Coiny', script;
 }
 
-h2 {
+h2, h3 {
     color: #D9534F;
     font-family: 'Coiny', script;
 }
@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-.page-link {
+.page-link, .btn-signup {
     border-radius: 25px;
     background-color: #96CEB4;
     color: #FFEEAD;
@@ -36,7 +36,7 @@ a {
     text-decoration: none;
 }
 
-.page-link:hover{
+.page-link:hover, .btn-signup:hover{
     background-color: #D9534F;
     transition: 0.5s;
 }
@@ -47,6 +47,7 @@ a {
     background-color: #FFAD60;
     margin-bottom: 25px;
     justify-content: center;
+    list-style: none;
 }
 
 .nav-link{
@@ -96,4 +97,10 @@ a {
     background-color: #FFAD60;
     color: #FFEEAD;
     border: 3px solid #96CEB4;
+}
+
+/* SIGNING IN AND OUT*/
+.sign-in-out{
+    border-radius: 25px;
+    color: #D9534F;
 }
