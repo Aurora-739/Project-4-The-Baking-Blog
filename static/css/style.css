@@ -43,7 +43,6 @@ a {
 }
 
 /*NAV BAR*/
-
 .navbar {
     padding: 25px;
     background-color: #FFAD60 !important;
@@ -56,6 +55,7 @@ a {
     color: #FFEEAD;
     text-decoration: underline;
     font-family: 'Coiny', script;
+
 }
 
 .nav-link:hover, h1:hover{
