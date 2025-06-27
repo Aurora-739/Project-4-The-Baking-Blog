@@ -16,12 +16,12 @@ def post_detail(request, slug):
     """
     Display an individual :model:`blog.Post`.
 
-    **Context**
+    **CONTEXT**
 
-    ``post``
+    ``POST IS``
         An instance of :model:`blog.Post`.
 
-    **Template:**
+    **TEMPLATE:**
 
     :template:`blog/post_detail.html`
     """

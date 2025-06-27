@@ -13,10 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}">
 
-
     <!-- Font Awesome CSS -->
     <script src="https://kit.fontawesome.com/cb3ec56b84.js" crossorigin="anonymous"></script>
-
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -56,7 +54,7 @@
         </div>
     </nav>
 
-    <!-- displaying Django messages -->
+    <!-- DJANGO MESSAGES -->
     <div class="container comment-alert">
         <div class="row">
             <div class="col-md-8 offset-md-2">
@@ -81,12 +79,12 @@
         <br>
 
         {% block content %}
-        <!-- Content Goes here -->
+        <!-- CONTENT -->
         {% endblock content %}
 
     </main>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer class="footer mt-auto py-3">
         <p class="m-0 text-center">
             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square ms-3 icon"></i></a>
