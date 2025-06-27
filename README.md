@@ -110,14 +110,26 @@ Browsers I tested on:
 Everything looked and worked the same across these.
 
 ## Validator Testing
-HTML:
+### HTML:
 Passed through the W3C Markup Validator.
 No major errors came up. (a few warnings however, I deemed the code mentioned in the warnings to be too vital to remove or change).
 
-CSS:
+### CSS:
 Ran the stylesheet through the W3C Jigsaw CSS Validator.
 Again, no errors found.
 
+## Bugs Found and Fixed
+### Modal Button IDs:
+At first, the delete confirmation modal wasn’t picking up the correct comment ID when multiple comments were shown. I fixed this by making sure each button targets the right comment dynamically.
+
+### Bootstrap Linking Error:
+At first, the Bootstrap styles and scripts weren’t being applied properly across all pages. This caused layout issues with the navbar and modals, and some buttons didn’t look or behave as expected.
+I realised I had linked to the wrong Bootstrap CDN version in my base template.
+After updating the link to the correct Bootstrap 5 CDN and making sure both CSS and JS files were included in the right order, everything displayed and worked as expected.
+
+## Unfixed Bugs
+Currently, I don’t have any known unresolved bugs.
+Everything works as expected across the features and devices I tested.
 
 Some code from some of the sections of The code institute's: I think therefore I blog:
 - comment.js
