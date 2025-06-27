@@ -85,8 +85,9 @@ a {
     color: #FFEEAD !important;
 }
 
-.footer > i {
-    color: #FFEEAD;
+.icon {
+    color: #FFEEAD !important;
+    font-size: 3rem;
 }
 
 

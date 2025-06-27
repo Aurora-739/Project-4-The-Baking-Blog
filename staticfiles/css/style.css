@@ -82,12 +82,14 @@ a {
 
 .footer {
     background-color: #FFAD60;
-    color: #FFEEAD;
+    color: #FFEEAD !important;
 }
 
-.footer > i {
-    color: #FFEEAD;
+.icon {
+    color: #FFEEAD !important;
+    font-size: 3rem;
 }
+
 
 /*IN THE BLOG POSTS*/
 
