@@ -107,8 +107,17 @@ Browsers I tested on:
 * Google Chrome (Latest Version)
 * Firefox (Latest Version)
 * Microsoft Edge
-
 Everything looked and worked the same across these.
+
+## Validator Testing
+HTML:
+Passed through the W3C Markup Validator.
+No major errors came up. (a few warnings however, I deemed the code mentioned in the warnings to be too vital to remove or change).
+
+CSS:
+Ran the stylesheet through the W3C Jigsaw CSS Validator.
+Again, no errors found.
+
 
 Some code from some of the sections of The code institute's: I think therefore I blog:
 - comment.js
