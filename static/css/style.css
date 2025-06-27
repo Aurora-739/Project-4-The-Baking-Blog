@@ -109,3 +109,11 @@ a {
     border-radius: 25px;
     color: #D9534F;
 }
+
+/*COMMENTING*/
+/*comment alert*/
+.alert {
+    background-color: #96CEB4;
+    border-radius: 25px;
+    color: #FFEEAD;
+}
