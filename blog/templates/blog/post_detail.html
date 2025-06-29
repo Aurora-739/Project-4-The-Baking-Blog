@@ -62,7 +62,7 @@
           faded{% elif not comment.approved %} d-none{% endif %}">
           <hr>
           <p>
-            <b>{{ comment.author }}{{ comment.created_on }}wrote:</b>
+            <b>{{ comment.author }} | {{ comment.created_on }} | wrote:</b>
           </p>
           <div id="comment{{ comment.id }}">
             {{ comment.body | linebreaks }}
