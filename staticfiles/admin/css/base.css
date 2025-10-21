@@ -519,6 +519,7 @@ select {
 }
 
 select[multiple] {
+    /* Allow HTML size attribute to override the height in the rule above. */
     height: auto;
     min-height: 150px;
 }
@@ -753,6 +754,15 @@ div.breadcrumbs a:focus, div.breadcrumbs a:hover {
 .deletelink {
     padding-left: 16px;
     background: url(../img/icon-deletelink.svg) 0 1px no-repeat;
+}
+
+a.deletelink:link, a.deletelink:visited {
+    color: #CC3434; /* XXX Probably unused? */
+}
+
+a.deletelink:focus, a.deletelink:hover {
+    color: #993333; /* XXX Probably unused? */
+    text-decoration: none;
 }
 
 /* OBJECT TOOLS */

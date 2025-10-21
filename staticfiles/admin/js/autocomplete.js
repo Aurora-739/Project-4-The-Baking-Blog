@@ -22,8 +22,8 @@
     };
 
     $(function() {
-        // INITIALIZES COMPLETE WIDJETS
-        // FORM USED WHEN NEW FORMSET ADDED
+        // Initialize all autocomplete widgets except the one in the template
+        // form used when a new formset is added.
         $('.admin-autocomplete').not('[name*=__prefix__]').djangoAdminSelect2();
     });
 

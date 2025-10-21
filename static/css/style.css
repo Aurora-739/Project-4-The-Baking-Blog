@@ -2,26 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap'); /*all fonts*/
 
 /*colour pallete
-cream: #FFEEAD
-turquoise: #96CEB4
-red: #D9534F
-orange: #FFAD60
+Antique Cream: #F5E6CC
+teal: #6B9080
+rose: #D8A7B1
+Deep Charcoal: #3E3E3E
+Faded Sage: #A4C3A2
+
+rose: #E5989B
 */
 
 body {
-    background-color: #FFEEAD;
-    color: #D9534F;
+    background-color: #F5E6CC;
+    color: #D8A7B1;
     font-family: "Merriweather";
     list-style-type: none;
 }
 
 h1 {
-    color: #FFEEAD;
+    color: #D8A7B1;
     font-family: 'Coiny', script;
 }
 
 h2, h3 {
-    color: #D9534F;
+    color: #D8A7B1;
     font-family: 'Coiny', script;
 }
 
@@ -31,62 +34,65 @@ a {
 
 .page-link, .btn-signup {
     border-radius: 25px;
-    background-color: #96CEB4;
-    color: #FFEEAD;
-    border: #FFAD60;
+    background-color: #6B9080;
+    color: #F5E6CC;
+    border: #A4C3A2;
     text-decoration: none;
 }
 
 .page-link:hover, .btn-signup:hover{
-    background-color: #D9534F;
+    background-color: #D8A7B1;
     transition: 0.5s;
 }
 
 /*NAV BAR*/
 .navbar {
     padding: 25px;
-    background-color: #FFAD60 !important;
+    background-color: #6B9080 !important;
     margin-bottom: 25px;
     justify-content: center;
     align-items: center;
 }
 
 .nav-link{
-    color: #FFEEAD;
+    color: #D8A7B1;
     text-decoration: underline;
     font-family: 'Coiny', script;
 
 }
 
 .nav-link:hover, h1:hover{
-    color: #D9534F;
+    color: #A4C3A2;
     transition: 0.5s;
 }
 
 /* CARDS */
 .custom-cards {
     border-radius: 25px;
-    border: 3px solid #96CEB4;
-    background-color: #FFAD60;
+    border: 3px solid #A4C3A2;
+    background-color: #6B9080;
 }
 
 .custom-cards:hover {
-    border: 3px solid #FFAD60;
-    background-color: #96CEB4;
+    border: 3px solid #6B9080;
+    background-color: #A4C3A2;
     transition: 0.5s;
+    h2{
+        color:#6B9080
+    }
 }
 
 .next-prev {
-    background-color: #FFEEAD !important;
+    background-color: #F5E6CC !important;
 }
 
 .footer {
-    background-color: #FFAD60;
-    color: #FFEEAD !important;
+    background-color: #A4C3A2;
+    color: #F5E6CC !important;
 }
 
 .icon {
-    color: #FFEEAD !important;
+    color: #F5E6CC !important;
     font-size: 3rem;
 }
 
@@ -100,39 +106,39 @@ a {
 
 
 .post-subtitle {
-    color: #D9534F;
+    color: #D8A7B1;
 }
 
 .post-info {
     border-radius: 25px;
-    background-color: #FFAD60;
-    color: #FFEEAD;
-    border: 3px solid #96CEB4;
+    background-color: #6B9080;
+    color: #F5E6CC;
+    border: 3px solid #6B9080;
 }
 
 /* SIGNING IN AND OUT*/
 .sign-in-out{
     border-radius: 25px;
-    color: #D9534F;
+    color: #D8A7B1;
 }
 
 /*COMMENTING*/
 /*comment alert*/
 .alert {
-    background-color: #96CEB4;
+    background-color: #6B9080;
     border-radius: 25px;
-    color: #FFEEAD;
+    color: #F5E6CC;
 }
 
 /*Comment box*/
 .comments-box {
-    background-color: #FFAD60;
-    color: #FFEEAD;
-    border: 3px solid #96CEB4 !important;
+    background-color: #6B9080;
+    color: #F5E6CC;
+    border: 3px solid #6B9080 !important;
     border-radius: 25px !important;
     padding: 10px;
 }
 
 .comment-btn{
-    color: #FFEEAD !important;
+    color: #F5E6CC !important;
 }
