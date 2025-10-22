@@ -55,6 +55,8 @@ went through each blog post manually & tested comments & buttons (i know this is
 The whole site works well on phones, tablets, and computers. No matter what device you use, the site looks good and is easy to use.(shown prev.)
 
 ## The Design Process
+
+### Overview 
 The process began with a quick sketch out of a wireframe. I chose to do my sketches on canva because it's quick and easy, I simply used square shapes to mark out the approximate location of what I wanted the end result to look like. Although the website doesn't look exactly the same as the wireframe, it was an easy base for me to refer back to during the development process.
 
 blog page: <img width="978" height="540" alt="image" src="https://github.com/user-attachments/assets/e551dddd-fdbb-4e55-af50-b14bd1186a3c" />
@@ -69,7 +71,8 @@ After my work had been marked it was noted that this colour scheme was not parti
 
 <img width="1310" height="754" alt="image" src="https://github.com/user-attachments/assets/87e5ed8c-4fc1-4070-81bd-bedc7d4f6a94" />
 
-
+### Architecture
+- Frontend - Primarily HTML
 
 ## Testing
 For this project, I did a lot of manual testing across all of the main features to make sure the site works as expected and gives users the experience I designed for.
@@ -165,4 +168,5 @@ Everything works as expected across the features and devices I tested.
 * For form styling and formatting, I used django and css from the Code Institute's Blog Walkthrough as my base code (changes were made).
 * Bug troubleshooting help came from questions and answers found on Stack Overflow.
 * I used the W3C Validator and Jigsaw CSS Validator to check and fix my code.
+
 
