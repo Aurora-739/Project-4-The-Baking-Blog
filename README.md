@@ -4,12 +4,13 @@ The Baking Blog is an engaging online platform designed to inspire and guide bak
 
 With features such as user authentication, commenting, and an intuitive design, The Baking Blog encourages a community-driven environment where users can leave feedback, ask questions, and engage with other bakers. This platform will be useful for its target audience by providing reliable, easy-to-follow recipes, fostering interaction, and helping bakers improve their skills while connecting with like-minded individuals.
 
-![image](https://github.com/user-attachments/assets/63ef5193-04c9-4789-a251-e03df76aaaa1)
+<img width="1897" height="897" alt="image" src="https://github.com/user-attachments/assets/240576c1-aa74-4c67-b380-349e93d2cc60" />
 laptop
 
-![image](https://github.com/user-attachments/assets/0d98dc63-0ad1-4bc4-9a2e-946ec61a7c2f)
+<img width="471" height="630" alt="image" src="https://github.com/user-attachments/assets/9b5904a6-170e-4021-a7df-9605cc62d512" />
 ipad
-![image](https://github.com/user-attachments/assets/ca8cc73e-2f5a-4142-a8fd-cdecd84edf52)
+
+<img width="366" height="732" alt="image" src="https://github.com/user-attachments/assets/39f53890-a1f6-4acb-a48e-bcf5747460d7" />
 iphone
 
 deployed link: https://food-blog-app-8f681c0f0074.herokuapp.com/
@@ -17,37 +18,39 @@ deployed link: https://food-blog-app-8f681c0f0074.herokuapp.com/
 ## Existing Features
 ### Navigation Bar
 The navigation bar appears on all pages, providing easy access to the Home page, user authentication links (login, logout, register), and the blog’s main sections. This consistent navigation allows users to move effortlessly through the site on any device, enhancing usability and engagement.
-![image](https://github.com/user-attachments/assets/1d2eed2b-0857-4e24-9aff-9e12937140c7)
+<img width="1883" height="183" alt="image" src="https://github.com/user-attachments/assets/d9a6958a-d4a8-4d23-8f34-1811ad858813" />
 pre login
 
-![image](https://github.com/user-attachments/assets/5b1d3bf4-84f1-4196-9dd0-1f06fc057d23)
+<img width="1881" height="208" alt="image" src="https://github.com/user-attachments/assets/2c8eedfb-f2c4-47b5-b739-f0ea6d0da84b" />
 post login
 
 
 ### Home Page with Recipes
 The home page shows a list of baking posts with pictures and titles. It’s paginated, so users can browse through recipes easily and pick the ones they want to check out.
 
-![image](https://github.com/user-attachments/assets/79efffe0-0150-4318-ada9-f65e10a2e881)
+<img width="1881" height="899" alt="image" src="https://github.com/user-attachments/assets/b16c1bdb-818d-4ea8-9b47-b80f15953379" />
 
 
 ### Recipe Detail Page
 On each recipe page, users see all the details like the utensils, ingredients, and step-by-step instructions. There’s also a big picture and info about the author. Plus, users who are logged in can leave comments, making it more interactive.
 
-![image](https://github.com/user-attachments/assets/5aa85b40-326d-42ae-b60e-5843d002ef49)
+<img width="571" height="777" alt="image" src="https://github.com/user-attachments/assets/4a27a248-5e8d-42e6-a684-75562d103d7f" />
 
 
 ### User Login and Signup
 Users can create accounts, log in, and log out. Once logged in, they can comment on recipes and even edit or delete their own comments. This keeps the community active and secure.
 
-![image](https://github.com/user-attachments/assets/4fcf5304-3af7-4a63-a830-ba3c480db324)
-![image](https://github.com/user-attachments/assets/9796f318-6d47-4d5e-a7e4-a3c672414f72)
-![image](https://github.com/user-attachments/assets/ada5306d-9b22-42fa-bd2a-26708868ac58)
+<img width="589" height="797" alt="image" src="https://github.com/user-attachments/assets/db7e5aa7-a060-481c-8577-c8bf56ea9bad" />
+<img width="582" height="790" alt="image" src="https://github.com/user-attachments/assets/2cc66ee5-5d7c-4a1f-aedf-0be241b23f55" />
+<img width="595" height="367" alt="image" src="https://github.com/user-attachments/assets/6feb0552-8f26-4a85-87dd-c9914e0b7db8" />
+<img width="562" height="146" alt="image" src="https://github.com/user-attachments/assets/e5a75b7a-14ca-4057-aac1-120fb5e03ad2" />
+
    
 ### Comments System
 Users can leave comments on recipes, but comments need approval before showing up to keep things nice. Users can also edit or delete their own comments, so they stay in control of what they say.
 went through each blog post manually & tested comments & buttons (i know this isn't the most effiecient way to do it, however there are not many blog posts currently)
-![image](https://github.com/user-attachments/assets/b4378217-c9b8-4e2d-ae05-93b91600d8a5)
-![image](https://github.com/user-attachments/assets/620b2c59-d61e-4e1e-aed6-d8e1af1d9ccb)
+<img width="1704" height="739" alt="image" src="https://github.com/user-attachments/assets/0445c39f-f39c-4a5c-b03a-250deb4e4155" />
+<img width="1688" height="611" alt="image" src="https://github.com/user-attachments/assets/1670f4a9-5eee-4753-ae43-93563cc768d7" />
 ![image](https://github.com/user-attachments/assets/da081e02-3baa-404e-94d1-b0c8ad2eef97)
 
 
@@ -175,6 +178,11 @@ Browsers I tested on:
 * Microsoft Edge
 Everything looked and worked the same across these.
 
+## Lighthouse Testing
+<img width="866" height="462" alt="image" src="https://github.com/user-attachments/assets/8c17d4a3-f673-48cf-8aef-eaf08dc72910" />
+<img width="376" height="168" alt="image" src="https://github.com/user-attachments/assets/f77315d9-d15c-4081-b923-9fbc06a89a9f" />
+
+
 ## Validator Testing
 ### HTML:
 Passed through the W3C Markup Validator.
@@ -230,6 +238,7 @@ I used the above link and read through my code - I did this manually so unfortun
 * For form styling and formatting, I used django and css from the Code Institute's Blog Walkthrough as my base code (changes were made).
 * Bug troubleshooting help came from questions and answers found on Stack Overflow.
 * I used the W3C Validator and Jigsaw CSS Validator to check and fix my code.
+
 
 
 
