@@ -34,7 +34,7 @@ if not SECRET_KEY:
     raise RuntimeError("SECRET_KEY environment variable is not set.")
 
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','.herokuapp.com']
 
