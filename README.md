@@ -56,6 +56,13 @@ The whole site works well on phones, tablets, and computers. No matter what devi
 
 ## The Design Process
 
+I chose to build a website that allows users to view blog posts created by the admin. Users can also submit comments on blog posts, which can be approved or deleted by the admin. 
+The main goal in the creation of this website was to create a positive warm environment for people to come to for baking ideas and to share their own experiences with the recipe's maybe even give some at home hacks if they have any.
+
+I chose soft colours and a rounded design to create a bubbly and warm environment, aiming to make the page seem like a safe place where users can comment and share ideas.
+
+The app structure was planned around CRUD functionality — allowing users to create, view, update, and delete comments.
+
 ### Overview 
 The process began with a quick sketch out of a wireframe. I chose to do my sketches on canva because it's quick and easy, I simply used square shapes to mark out the approximate location of what I wanted the end result to look like. Although the website doesn't look exactly the same as the wireframe, it was an easy base for me to refer back to during the development process.
 
@@ -67,12 +74,21 @@ After my wireframes were drawn up I tried out a few different colours. In my ori
 
 <img width="968" height="555" alt="image" src="https://github.com/user-attachments/assets/58c6e9c4-4239-4b77-a513-5f1f552181ec" />
 
-After my work had been marked it was noted that this colour scheme was not particularly UI friendly, although I included a hover feature which did aid in UI as it changed the colours from yellow and red to turquiose adn red. I have thus made the switch from the almost monochromatic palette to a colour palette mainly consisting of pink and green, the colours on the opposite sides of the colour wheel as well as the difference in tones, should make the page more UI friendly for those with visual impairments or simply those who wish to view the site more easily at a glance.
+After my work had been marked it was noted that this colour scheme was not particularly UI friendly, although I included a hover feature which did aid in UI as it changed the colours from yellow and red to turquiose and red. I have thus made the switch from the almost monochromatic palette to a colour palette mainly consisting of pink and green, the colours on the opposite sides of the colour wheel as well as the difference in shades, should make the page more UI friendly for those with visual impairments or simply those who wish to view the site more easily at a glance.
 
 <img width="1310" height="754" alt="image" src="https://github.com/user-attachments/assets/87e5ed8c-4fc1-4070-81bd-bedc7d4f6a94" />
 
-### Architecture
-- Frontend - Primarily HTML
+### CRUD Functionality
+
+Create: Users can create new comments. (these comments can then be chosen to be displayed by the admin - I chose to include this feature as I wanted the blog to be a safe place so manual filtering of comments would help in there not being any super negativity or rudeness which can often be found on blogs / other social media.)
+<img width="1239" height="696" alt="image" src="https://github.com/user-attachments/assets/16a94e7e-0694-4013-89b8-5906f3ce1d0c" /> (e.g. of an unnapproved comment in the admin section).
+
+Read: All comments are displayed on the recipe's page and can be easily viewed.
+
+Update: Logged-in users can edit their own comments.
+
+Delete: Users can delete comments they created.
+This makes the app fully dynamic and interactive, rather than static.
 
 ## Testing
 For this project, I did a lot of manual testing across all of the main features to make sure the site works as expected and gives users the experience I designed for.
@@ -168,5 +184,6 @@ Everything works as expected across the features and devices I tested.
 * For form styling and formatting, I used django and css from the Code Institute's Blog Walkthrough as my base code (changes were made).
 * Bug troubleshooting help came from questions and answers found on Stack Overflow.
 * I used the W3C Validator and Jigsaw CSS Validator to check and fix my code.
+
 
 
