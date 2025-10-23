@@ -78,7 +78,16 @@ After my work had been marked it was noted that this colour scheme was not parti
 
 <img width="1310" height="754" alt="image" src="https://github.com/user-attachments/assets/87e5ed8c-4fc1-4070-81bd-bedc7d4f6a94" />
 
-### CRUD Functionality
+### Typography:
+“Poppins” for headers and “Lato” for body text to maintain readability.
+
+### Layout:
+Recipes displayed in cards for easy scanning, inspired by Pinterest-style grids.
+
+### UX Decisions: 
+Navigation kept simple (Home, Add Recipe, Login) to reduce clutter.
+
+## CRUD Functionality
 
 Create: Users can create new comments. (these comments can then be chosen to be displayed by the admin - I chose to include this feature as I wanted the blog to be a safe place so manual filtering of comments would help in there not being any super negativity or rudeness which can often be found on blogs / other social media.)
 <img width="1239" height="696" alt="image" src="https://github.com/user-attachments/assets/16a94e7e-0694-4013-89b8-5906f3ce1d0c" /> (e.g. of an unnapproved comment in the admin section).
@@ -167,6 +176,22 @@ After updating the link to the correct Bootstrap 5 CDN and making sure both CSS 
 Currently, I don’t have any known unresolved bugs.
 Everything works as expected across the features and devices I tested.
 
+## Pep8 
+(https://peps.python.org/pep-0008/)
+I used the above link and read through my code - I did this manually so unfortunatly there aren't any particulary screenshots I can share with you but I have included screenshots of my code which I think display the pep8 test well.
+- [x] Code Lay Out
+<img width="692" height="320" alt="image" src="https://github.com/user-attachments/assets/31be1add-c43a-4ed1-b163-bf9266d5effe" />
+- [x] String Quotes
+- [x] White space in expressions & statements.
+- [x] When To use trailing commas
+- [x] Comments
+- [x] Naming Conventions
+<img width="717" height="361" alt="image" src="https://github.com/user-attachments/assets/4f0bbef1-b838-4d1c-8d08-25cc87be5619" />
+- [x] Programming Recommendations
+      - I believe these can change based on situation and so a single screenshot will not do this section justice.
+- [x] References
+- [x] Copywrite
+      - Both are noted further in the README.md
 ## Credits
 ### Content
 * The comment functionality (add, edit, delete, and approve) was guided by the Django tutorials and documentation from the official Django project site.
@@ -184,6 +209,7 @@ Everything works as expected across the features and devices I tested.
 * For form styling and formatting, I used django and css from the Code Institute's Blog Walkthrough as my base code (changes were made).
 * Bug troubleshooting help came from questions and answers found on Stack Overflow.
 * I used the W3C Validator and Jigsaw CSS Validator to check and fix my code.
+
 
 
 
