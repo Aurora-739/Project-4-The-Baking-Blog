@@ -99,6 +99,27 @@ Update: Logged-in users can edit their own comments.
 Delete: Users can delete comments they created.
 This makes the app fully dynamic and interactive, rather than static.
 
+## Agile Development
+Arguably one of the most important part of development as it keeps the ball rolling so to speak.
+Below I have included a screenshot of the google sheet I chose to use as the way I implimented agile development.
+
+I chose a google sheet as my agile development set up as it is easy to keep track of and as a team of 1 developer having seperate projects in GitHub felt messy and overly complicated for the product I was trying to achieve.
+
+The reason some of the Numbers are missing is because as I was going through development I would come to the conclusion that some things are not relevant to blog posts.
+<img width="1610" height="597" alt="image" src="https://github.com/user-attachments/assets/57f3fc35-c4cc-4f45-996a-537bc88703d6" />
+<img width="1565" height="539" alt="image" src="https://github.com/user-attachments/assets/b1a2860b-ebcd-4a61-b2d2-c7034ec40d5f" />
+<img width="1415" height="426" alt="image" src="https://github.com/user-attachments/assets/2706f31f-d376-46db-87b4-84f09704afe9" />
+<img width="1447" height="367" alt="image" src="https://github.com/user-attachments/assets/ebcfaad7-8366-4d51-a6bb-2fb8f2e36189" />
+
+## Deployment
+
+- The site was deployed using Heroku.
+- Pushed code to GitHub.
+- Connected GitHub repo to Heroku.
+- Set environment variables for database and secret key.
+- Deployed automatically on each push to main.
+
+
 ## Testing
 For this project, I did a lot of manual testing across all of the main features to make sure the site works as expected and gives users the experience I designed for.
 
@@ -209,6 +230,7 @@ I used the above link and read through my code - I did this manually so unfortun
 * For form styling and formatting, I used django and css from the Code Institute's Blog Walkthrough as my base code (changes were made).
 * Bug troubleshooting help came from questions and answers found on Stack Overflow.
 * I used the W3C Validator and Jigsaw CSS Validator to check and fix my code.
+
 
 
 
